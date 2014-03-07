@@ -1,0 +1,91 @@
+/**
+ * Fonts
+ * 
+ * Use this file to configure font libraries and custom fonts.
+ * Actual font rules are included in config/fonts/_font_name.scss
+ *
+ * For more information on how to use font-face go to:
+ * http://compass-style.org/reference/compass/css3/font_face/
+ */
+
+// Include Compass CSS3 Font Mixin
+@import "compass/css3/font-face";
+
+
+
+
+/* ======================================================================
+ * Including font libraries such as FontAwesome is pretty straight
+ * forward. Configure the font-face below and import the styles
+ * in fonts/_font-awesome.scss.
+ ====================================================================== */
+
+/* FontAwesome
+======================== */
+
+// // The path to the publically accessible fonts as defined in config.rb
+// $font_awesome_path = "../fonts/fontawesome/fontawesome-webfont";
+
+// // Configure font-face rule
+// @include font-face(
+//     'FontAwesome',
+//     font-files(
+//         "#{$font_awesome_path}.eot=4.0.3", woff,
+//         "#{$font_awesome_path}.woffv=4.0.3", woff,
+//         "#{$font_awesome_path}.ttf?v=4.0.3", truetype,
+//         "#{$font_awesome_path}.svg?v=4.0.3#fontawesomeregular", svg
+// 	),
+//     "#{$font_awesome_path}.eot?#iefix&v=4.0.3",
+//     normal,
+//     normal
+// );
+
+// // Import FontAwesome CSS in fonts/_font-awesome.scss
+// @import "../fonts/font-awesome";
+
+
+
+
+/* ======================================================================
+ * Including custom icon libraries can require multiple updates to the CSS
+ * so I've found it easier to configure the font within this file using a 
+ * separate file to add font rules. The below template should get you up
+ * and running in little time.
+ ====================================================================== */
+ 
+/* Custom Font #1
+======================== */
+
+// // The path to the publically accessible fonts as defined in config.rb
+// $custom_font_path : "custom/font" !default;
+
+// // Configure custom font-face
+// @include font-face(
+//     'custom_font_name',
+//     font-files(
+//         "#{$custom_font_path}.woff", woff,
+//         "#{$custom_font_path}.ttf", truetype,
+//         "#{$custom_font_path}.svg?#jtd", svg
+// 	),
+//     "#{$custom_font_path}.eot?#iefix",
+//     normal,
+//     normal
+// );
+
+// // Configure custom font rule(s)
+// [class^="custom_font_name-"], [class*=" custom_font_name-"] {
+// 	font-family: 'custom_font_name';
+// 	speak: none;
+// 	font-style: normal;
+// 	font-weight: normal;
+// 	font-variant: normal;
+// 	text-transform: none;
+// 	line-height: 1;
+
+// 	/* Better Font Rendering =========== */
+// 	-webkit-font-smoothing: antialiased;
+// 	-moz-osx-font-smoothing: grayscale;
+// }
+
+// // Import the custom font rules as defined in fonts/_custom_font.scss
+// @import "fonts/custom_font";

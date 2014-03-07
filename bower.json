@@ -1,0 +1,13 @@
+{
+    "name"		: "plex-app",
+    "version"	: "0.0.1",
+    "private"	: "true",
+    "dependencies"	: {
+        "foundation"	: "zurb/bower-foundation",
+        "backbone"		: null,
+        "underscore"	: null,
+        "requirejs"		: null,
+        "requirejs-text": null,
+        "mustache"      : null
+    }
+}

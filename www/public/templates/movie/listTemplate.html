@@ -1,0 +1,11 @@
+<dl class="accordion" data-accordion>
+	<% _.each( movies, function( movie ) { %>
+		<dd>
+			<a href="#movie_<%= movie.id %>"><%= movie.title %></a>
+
+			<div id="movie_<%= movie.id %>" class="content">
+				<%= movie.summary %>
+			</div>
+		</dd>
+	<% }); %>
+</dl>

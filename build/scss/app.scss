@@ -1,0 +1,59 @@
+/** 
+ * Foundation Configuration
+ *
+ * The Foundation configuration file is broken into many different
+ * files that can be uncommented or modified within the /config 
+ * directory. 
+ * 
+ * To override Foundation configuration values you can modify
+ * /config/_custom.scss or use this file to add custom values for the
+ * application.
+ **/
+@import "config/foundation";
+
+/**
+ * If you want to include a dump of all Foundation components 
+ * comment/uncomment the following line.
+ */
+// @import "foundation";
+
+/**
+ * If you want to selectively include components, you can 
+ * comment/uncomment each one (as needed).
+ */
+@import
+	"foundation/components/accordion",
+	"foundation/components/alert-boxes",
+	"foundation/components/block-grid",
+	"foundation/components/breadcrumbs",
+	"foundation/components/button-groups",
+	"foundation/components/buttons",
+	"foundation/components/clearing",
+	"foundation/components/dropdown",
+	"foundation/components/dropdown-buttons",
+	"foundation/components/flex-video",
+	"foundation/components/forms",
+	"foundation/components/grid",
+	"foundation/components/inline-lists",
+	"foundation/components/joyride",
+	"foundation/components/keystrokes",
+	"foundation/components/labels",
+	"foundation/components/magellan",
+	"foundation/components/orbit",
+	"foundation/components/pagination",
+	"foundation/components/panels",
+	"foundation/components/pricing-tables",
+	"foundation/components/progress-bars",
+	"foundation/components/reveal",
+	"foundation/components/side-nav",
+	"foundation/components/split-buttons",
+	"foundation/components/sub-nav",
+	"foundation/components/switch",
+	"foundation/components/tables",
+	"foundation/components/tabs",
+	"foundation/components/thumbs",
+	"foundation/components/tooltips",
+	"foundation/components/top-bar",
+	"foundation/components/type",
+	"foundation/components/offcanvas",
+	"foundation/components/visibility";
